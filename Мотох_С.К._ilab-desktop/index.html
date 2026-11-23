@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лаборатория инноваций iLAB для стартапов в области цифровой медицины</title>
+<meta name="description" content="Акселерационная программа Сколково, Hadassah Medical Moscow и AstraZeneca для стартапов в цифровой медицине. Приём заявок до 31 марта 2021.">
+<meta name="theme-color" content="#830051">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/500x500.png">
+<meta property="og:type" content="website">
+<!-- ВАЖНО: для превью ссылки (og:image) нужны АБСОЛЮТНЫЕ адреса. Замените YOUR-DOMAIN.ru на адрес сайта -->
+<meta property="og:url" content="https://YOUR-DOMAIN.ru/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Лаборатория инноваций iLAB">
+<meta property="og:description" content="для стартапов в области цифровой медицины">
+<meta property="og:image" content="https://YOUR-DOMAIN.ru/img/opengraph.jpg">
+<meta property="og:image:width" content="980">
+<meta property="og:image:height" content="510">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Лаборатория инноваций iLAB для стартапов в области цифровой медицины">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Лаборатория инноваций iLAB">
+<meta name="twitter:image" content="https://YOUR-DOMAIN.ru/img/opengraph.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<!-- Иконки (Feather-стиль), подключаются через <use> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-arrow" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8l-4 4 4 4M16 12H8"/></symbol>
+ <symbol id="i-chev" viewBox="0 0 24 24"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></symbol>
+ <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
+ <symbol id="i-down" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+ <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></symbol>
+ <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+ <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M14.8 9.5a3.5 3.5 0 1 0 0 5"/></symbol>
+ <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+ <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+ <symbol id="i-ud" viewBox="0 0 12 28"><path d="M1 10l5-5 5 5M1 18l5 5 5-5"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+ <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></symbol>
+ <symbol id="i-team" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+ <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+</svg>
+
+<!-- ШАПКА (выезжает при прокрутке вверх, прячется при прокрутке вниз) -->
+<input type="checkbox" id="menu" hidden>
+<header class="top">
+ <div class="wrap">
+  <label class="burger" for="menu" aria-label="Открыть меню"></label>
+  <a class="az" href="#top"><img src="img/az.png" width="180" height="44" alt="AstraZeneca"></a>
+  <nav>
+   <a href="#about">О программе</a><a href="#why">Зачем участвовать</a><a href="#who">Кого мы ищем</a><a href="#dirs">Направления</a><a href="#stages">Этапы</a><a href="#contacts">Контакты</a>
+   <div class="m-extra">
+    <label class="x" for="menu" aria-label="Закрыть меню"><svg class="ico"><use href="#i-x"/></svg></label>
+    <a class="btn" href="#contacts">Подать заявку</a>
+    <span class="c-label">Контактное лицо</span><span class="c-name">Елена Тихомирова</span>
+    <a class="c-mail" href="mailto:ilab@sk.ru">ilab@sk.ru</a><a class="c-tel" href="tel:+74959560033">+7 (495) 956 00 33 <small>(доб. 2076)</small></a>
+   </div>
+  </nav>
+  <a class="sk" href="#top"><img src="img/logo_1.png" width="70" height="50" alt="Сколково"></a>
+ </div>
+</header>
+
+<main>
+<!-- ГЕРОЙ -->
+<section class="hero" id="about">
+ <div class="hero-top"><div class="wrap">
+  <h1>ЛАБОРАТОРИЯ ИННОВАЦИЙ iLAB</h1>
+  <p>для стартапов в области цифровой медицины</p>
+ </div></div>
+ <div class="hero-band"><div class="wrap">
+  <input type="checkbox" id="rd" hidden>
+  <p>Мы собрали компетенции Фонда «Сколково», научно-технологическую и отраслевую экспертизу партнеров, а также клиническую базу медицинского центра Hadassah Medical Moscow для доработки и внедрения инновационных решений цифровой медицины под потребности врачей и пациентов.<br>Проект реализуется совместными усилиями Фонда «Сколково», медицинской клиники Hadassah Medical Moscow и биофармацевтической компании AstraZeneca при поддержке компании ПАО «Ростелеком».</p>
+  <label class="rm" for="rd">Читать далее</label>
+  <div class="deadline"><a class="btn" href="#contacts">Подать заявку</a><div><small>Прием заявок до</small><b>31 марта 2021</b></div></div>
+ </div></div>
+ <img class="hero-img" src="img/hero-group.webp" alt="iLAB">
+</section>
+
+<!-- ПРОГРАММА 2021 -->
+<section class="prog">
+ <div class="wrap">
+  <h2 class="h2">Программа 2021</h2>
+  <div class="video"><img src="img/sk.webp" alt="Сколково"><button class="play" aria-label="Смотреть видео"></button></div>
+ </div>
+</section>
+
+<!-- О ПАРТНЕРАХ -->
+<section class="gray partners">
+ <div class="wrap"><h2 class="h2">О партнерах iLAB</h2></div>
+ <div class="slider"><div class="vp"><div class="cards tr">
+  <article class="pcard"><img src="img/az.png" alt="AstraZeneca"><p>Международная научно-ориентированная биофармацевтическая компания, нацеленная на исследование, разработку и вывод на рынок рецептурных препаратов преимущественно в таких терапевтических областях, как онкология, кардиология, нефрология и метаболизм</p><a class="more" href="#">Читать далее</a><div class="stat"><svg class="ico ud"><use href="#i-ud"/></svg><em>57 500</em><small>Сотрудников во всем мире</small></div></article>
+  <article class="pcard"><img src="img/hadassah.png" alt="Hadassah Medical Moscow"><p>Первый в России медицинский клинико-диагностический центр под управлением иностранного университетского госпиталя со столетней историей – Hadassah, единственной израильской больницы, состоящей в American Hospital Association</p><a class="more" href="#">Читать далее</a><div class="stat"><svg class="ico ud"><use href="#i-ud"/></svg><em>175 000</em><small>Проведенных за год манипуляций</small></div></article>
+  <article class="pcard"><img src="img/rostelecom.png" alt="Ростелеком"><p>Крупнейший в России интегрированный провайдер цифровых услуг и решений, который присутствует во всех сегментах рынка и охватывает миллионы домохозяйств, государственных и частных организаций. Занимает лидирующие позиции на рынке услуг доступа</p><a class="more" href="#">Читать далее</a><div class="stat"><svg class="ico ud"><use href="#i-ud"/></svg><em>13,4 млн</em><small>Абонентов услуг ШПД</small></div></article>
+  <article class="pcard"><img src="img/ge.png" alt="GE Healthcare"><p>GE Healthcare – бизнес-подразделение GE (NYSE: GE) с оборотом $16,7 млрд. Являясь одним из ведущих мировых производителей передового медицинского оборудования и цифровых решений, GE Healthcare помогает врачам получать качественную информацию и принимать</p><a class="more" href="#">Читать далее</a><div class="stat"><svg class="ico ud"><use href="#i-ud"/></svg><em>50 000</em><small>Единиц оборудования поставлено в Россию и СНГ</small></div></article>
+ </div></div></div>
+</section>
+
+<!-- ЦЕЛИ -->
+<section class="goals">
+ <h2 class="h2 only-m">Цели программы</h2>
+ <div class="goals-l"><img src="img/goals.webp" alt=""></div>
+ <ol class="steps">
+  <li style="--t:187px"><b>01</b><p style="--t:25px">Поиск, отбор и адаптация перспективных проектов под задачи корпораций</p></li>
+  <li style="--t:312px"><b>02</b><p style="--t:16px">Взаимодействие с центрами экспертизы и врачебным сообществом. Развитие технологии продукта, которые соответствуют потребностям пациентам и здравоохранению</p></li>
+  <li style="--t:472px"><b>03</b><p style="--t:16px">Сбор и учет обратной связи от врачей и пациентов. Доработка продукта с учетом принципов пациентоориентированности и дизайн-мышления при поддержке ведущих экспертов организаций-партнеров</p></li>
+ </ol>
+</section>
+
+<!-- ЗАЧЕМ УЧАСТВОВАТЬ -->
+<section class="why" id="why">
+ <div class="wrap">
+  <h2 class="h2">Зачем участвовать</h2>
+  <div class="slider"><div class="vp"><div class="why-grid tr">
+   <div class="wcard wc1"><svg class="ico big"><use href="#i-web"/></svg><p>Лучшие из 3-5 стартапов, прошедших отбор, получат возможность пройти акселерационную программу, созданную Фондом «Сколково» с использованием 10-ти летнего опыта развития стартапов и лучших международных практик</p></div>
+   <div class="wcard wc2"><svg class="ico big"><use href="#i-rocket"/></svg><p>При успешном прохождении акселерационной программы стартапы получат возможность запустить совместный проект (пилот) с индустриальными партнёрами проекта iLAB</p></div>
+   <div class="wcard wc3"><svg class="ico big"><use href="#i-team"/></svg><h3>Каждый участник программы сможет</h3>
+    <ul><li>В индивидуальном режиме работать с 2-4 менторами из индустриальных компаний, венчурных фондов и исследовательских организаций</li><li>Протестировать своё решение на базе клиники Hadassah Medical Moscow и получить обратную связь от врачей и пациентов</li><li>Принять участие в образовательной части программы</li></ul></div>
+  </div></div>
+  <div class="tab"><svg class="ico"><use href="#i-check"/></svg><span>Интеграции</span></div>
+  </div>
+ </div>
+</section>
+
+<!-- КОГО МЫ ИЩЕМ -->
+<section class="who" id="who">
+ <div class="wrap">
+  <div class="who-card">
+   <h2 class="h2">Кого мы ищем</h2>
+   <p>Мы ищем инновационные проекты и решения в области онкологии, сердечно-сосудистых заболеваний, заболеваний обмена веществ и почек, респираторных заболеваний, патологии иммунной системы, гастроэнтерологии, цифровые решения для подразделения R&amp;D фармацевтической компании, решения по поддержке пациентов-участников клинических исследований в условиях пандемии.</p>
+   <div class="deadline"><a class="btn" href="#contacts">Подать заявку</a><div><small>Прием заявок до</small><b>31 марта 2021</b></div></div>
+   <div class="free"><svg class="ico"><use href="#i-alert"/></svg><span>Участие в программе бесплатно</span></div>
+  </div>
+  <ul class="crit">
+   <li><i><svg class="ico"><use href="#i-list"/></svg></i>Соответствие приоритетным направлениям конкурсного отбора</li>
+   <li><i><svg class="ico"><use href="#i-bag"/></svg></i>Приоритет проектам, представляющим бизнес-интерес для компаний-партнёров iLAB и / или решающим важные задачи для системы Здравоохранения</li>
+   <li><i><svg class="ico"><use href="#i-check"/></svg></i>Технология / продукт не ниже уровня MVP (приветствуется наличие первых продаж / внедрений)</li>
+   <li><i><svg class="ico"><use href="#i-copy"/></svg></i>Наличие прав на использование / потенциал защиты объектов интеллектуальной собственности на территории России</li>
+   <li><i><svg class="ico"><use href="#i-users"/></svg></i>Сформированная команда (2+ человека в команде, закрыты ключевые функции)</li>
+   <li><i><svg class="ico"><use href="#i-list"/></svg></i>Наличие всех необходимых разрешений / лицензий для осуществления деятельности</li>
+  </ul>
+ </div>
+</section>
+
+<!-- НАПРАВЛЕНИЯ -->
+<section class="dirs" id="dirs">
+ <div class="wrap">
+  <h2 class="h2">Направления отбора</h2>
+  <div class="dir-grid">
+   <div class="dir"><details open><summary>Биофарма</summary><p>Цифровые решения в области выявления, диагностики и лечения ХСН, ХБП, бронхиальной астмы, сахарного диабета, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, другие цифровые решения для врачей и пациентов в указанных нозологиях, поддержка врачей и пациентов в условиях пандемии</p></details><b class="o1" aria-hidden="true">биофарма</b><b class="o2" aria-hidden="true">биофарма</b><b class="o3" aria-hidden="true">биофарма</b><img src="img/bio.webp" alt=""></div>
+   <div class="dir"><details><summary>Онкология</summary><p>Ранняя диагностика рака, цифровые решения в области выявления (скрининга) и диагностики рака легкого, рака молочной железы, рака яичников, рака поджелудочной железы, рака простаты, хронического лимфоцитарного лейкоза и мантийноклеточной лимфомы, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, решения для сбора и анализа данных о пациентах, поддержка врачей и пациентов в условиях пандемии</p></details><b class="o1" aria-hidden="true">онкология</b><b class="o2" aria-hidden="true">онкология</b><b class="o3" aria-hidden="true">онкология</b><img src="img/onco.webp" alt=""></div>
+  </div>
+ </div>
+</section>
+
+<!-- ЭТАПЫ -->
+<section class="stages-sec" id="stages">
+ <div class="wrap">
+  <h2 class="h2">Этапы</h2>
+  <ol class="stages">
+   <li><time>15 – 31 Марта 2021</time><b>Поиск и привлечение проектов</b></li>
+   <li><time>1 – 10 Апреля 2021</time><b>Диагностика стартапов<br>Pitch Day <span class="info" tabindex="0"><svg class="ico"><use href="#i-info"/></svg><span class="tip"><span>Отбор активных участников (до 5) и стартапов с silent seats (3 потенциальные замены)</span><span>Выступления проектов и определение треков в акселерационном блоке</span></span></span></b></li>
+   <li><time>Апрель 2021</time><b>Образовательный BootCamp</b></li>
+   <li><time>Май – Сентябрь 2021</time><b>Акселерационный блок (4 – 6 месяцев)</b></li>
+   <li><time>Октябрь 2021</time><b>Демо день. Итоговая диагностика</b></li>
+  </ol>
+ </div>
+</section>
+
+<!-- ЖЮРИ И МЕНТОРЫ -->
+<section class="gray jury">
+ <div class="wrap">
+  <h2 class="h2">Жюри и менторы</h2>
+  <div class="gold">
+  <div style="--x:285px;--y:230px"><b>20+ менторов</b><p>Представители корпораций, инвесторов и успешных стартапов</p></div>
+  <div style="--x:290px;--y:403px"><b>4+ ментора</b><p>На 1 участника стартапа</p></div>
+  <div style="--x:290px;--y:522px"><b>10+ часов</b><p>Индивидуальной работы (тестирование гипотез, custdev)</p></div>
+ </div>
+  <div class="slider"><div class="vp"><ul class="grid3 tr">
+   <li><img src="img/m-sigal.png" alt="Родион Сигал, Hadassah Medical Moscow"></li>
+   <li><img src="img/m-glazkov.png" alt="Борис Глазков, ПАО «Ростелеком»"></li>
+   <li><img src="img/m-simonova.png" alt="Любовь Симонова-Емельянова, ПАО «Ростелеком»"></li>
+   <li><img src="img/m-brash.png" alt="Анна Бращенкова, АстраЗенека"></li>
+   <li><img src="img/m-akopyan.png" alt="Лоран Акопян, iPavlov"></li>
+   <li><img src="img/m-vinogradov.png" alt="Алексей Виноградов, Unicorn Capital Partners"></li>
+   <li><img src="img/m-zubanova.png" alt="Софья Зубанова, RBV Capital"></li>
+   <li><img src="img/m-soboleva.png" alt="Екатерина Соболева, GE Healthcare"></li>
+   <li><img src="img/m-timofeev.png" alt="Глеб Тимофеев, GE Healthcare"></li>
+  </ul></div></div>
+ </div>
+</section>
+
+<!-- КОМАНДА -->
+<section class="team">
+ <div class="wrap">
+  <h2 class="h2">Команда проекта</h2>
+  <div class="rel slider"><div class="vp">
+  <ul class="row4 tr">
+   <li><img src="img/m-zarubina.png" alt="Камила Зарубина, директор по акселерации, PhD"></li>
+   <li><img src="img/m-sheenko.png" alt="Евгений Шеенко, CFA"></li>
+   <li><img src="img/m-yartseva.png" alt="Софья Ярцева, Medical Innovation Lead"></li>
+   <li><img src="img/m-taskin.png" alt="Иван Таскин, работа со стартапами"></li>
+  </ul></div>
+  <button class="arr l" aria-label="Назад" style="--t:175px"><svg class="ico"><use href="#i-arrow"/></svg></button>
+  <button class="arr r" aria-label="Вперёд" style="--t:175px"><svg class="ico"><use href="#i-arrow"/></svg></button>
+  </div>
+ </div>
+</section>
+
+<!-- ДОКУМЕНТЫ -->
+<section class="docs">
+ <div class="wrap">
+  <h2 class="h2">Документы</h2>
+  <div class="slider"><div class="vp"><div class="doc-row tr">
+   <a class="doc" href="#"><span>Шаблон презентации<small>PDF • 10,3 Mb</small></span><svg class="ico"><use href="#i-down"/></svg></a>
+   <a class="doc" href="#"><span>Положение о конкурсном отборе<small>PDF • 9,7 Mb</small></span><svg class="ico"><use href="#i-down"/></svg></a>
+   <a class="doc" href="#"><span>Согласие на обработку персональных данных<small>PDF • 8,5 Mb</small></span><svg class="ico"><use href="#i-down"/></svg></a>
+  </div></div></div>
+ </div>
+</section>
+
+<!-- ОРГАНИЗАТОРЫ И ПАРТНЕРЫ -->
+<section class="gray logos">
+ <div class="wrap">
+  <h2 class="h2">Организаторы</h2>
+  <div class="slider org"><div class="vp"><ul class="row4 lg tr">
+   <li><img src="img/az.png" width="189" alt="AstraZeneca"></li>
+   <li><img src="img/hadassah.png" width="175" alt="Hadassah Medical Moscow"></li>
+   <li><img src="img/logo_1.png" width="112" alt="Сколково"></li>
+   <li><img src="img/ge.png" width="90" alt="GE Healthcare"></li>
+  </ul></div></div>
+  <h2 class="h2 p2">Партнеры</h2>
+  <div class="rel slider"><div class="vp">
+   <ul class="row4 lg tr">
+    <li><img src="img/rostelecom.png" width="197" alt="Ростелеком"></li>
+    <li><img src="img/unicorn.png" width="111" alt="Unicorn Capital Partners"></li>
+    <li><img src="img/cniioiz.png" width="220" alt="ЦНИИОИЗ"></li>
+    <li><img src="img/rbv.png" width="140" alt="RBV Capital"></li>
+   </ul></div>
+   <button class="arr l" aria-label="Назад" style="--t:55px"><svg class="ico"><use href="#i-arrow"/></svg></button>
+   <button class="arr r" aria-label="Вперёд" style="--t:55px"><svg class="ico"><use href="#i-arrow"/></svg></button>
+  </div>
+ </div>
+</section>
+</main>
+
+<!-- ПОДВАЛ / КОНТАКТЫ -->
+<footer id="contacts">
+ <div class="wrap">
+  <h2 class="h2">Контакты</h2>
+  <div class="c1"><span class="c-label">Контактное лицо</span><span class="c-name">Елена Тихомирова</span></div>
+  <div class="c2"><a class="c-mail" href="mailto:ilab@sk.ru">ilab@sk.ru</a><a class="c-tel" href="tel:+74959560033">+7 (495) 956 00 33 <small>(доб. 2076)</small></a></div>
+  <a class="btn c-btn" href="mailto:ilab@sk.ru">Подать заявку</a>
+  <span class="copy l">© AstraZeneca – Skolkovo Startup Challenge 2021</span>
+  <a class="copy c" href="#">Политика конфиденциальности</a>
+  <span class="copy r">WebCanape – разработка сайтов и маркетинг</span>
+ </div>
+ <a class="up" href="#top" aria-label="Наверх"><svg class="ico"><use href="#i-chev"/></svg></a>
+</footer>
+<script>
+/* 1) Шапка: прячется при прокрутке вниз, выезжает при прокрутке вверх */
+(function(){
+ var top=document.querySelector('.top'),menu=document.getElementById('menu'),y=window.scrollY;
+ addEventListener('scroll',function(){
+  var c=window.scrollY;
+  top.classList.toggle('shadow',c>10);
+  top.classList.toggle('hide',c>y&&c>130&&!menu.checked);
+  y=c;
+ },{passive:true});
+ /* закрыть мобильное меню при клике на пункт */
+ document.querySelectorAll('.top nav a').forEach(function(a){a.addEventListener('click',function(){menu.checked=false})});
+})();
+
+/* 2) Слайдеры (команда, партнёры, на телефоне — ещё и остальные): стрелки, свайп, точки */
+document.querySelectorAll('.slider').forEach(function(root){
+ var tr=root.querySelector('.tr'),n=tr.children.length,idx=0,busy=false,x0=0;
+ var mobile=function(){return innerWidth<768};
+ var dots=document.createElement('div');dots.className='dots';
+ for(var i=0;i<n;i++){dots.appendChild(document.createElement('i'))}
+ root.appendChild(dots);dots.children[0].className='on';
+ function step(){return tr.children.length>1?tr.children[1].offsetLeft-tr.children[0].offsetLeft:tr.children[0].offsetWidth}
+ function go(d){
+  if(busy)return;
+  if(!root.querySelector('.arr')&&!mobile())return;
+  busy=true;var s=step(),c,end=function(e){if(e.target!==tr)return;tr.removeEventListener('transitionend',end);fin()};
+  idx=(idx+d+n)%n;[].forEach.call(dots.children,function(el,i){el.className=i===idx?'on':''});
+  if(d>0){
+   c=tr.firstElementChild.cloneNode(true);tr.appendChild(c);
+   tr.style.transition='transform .4s';tr.style.transform='translateX('+(-s)+'px)';
+   var fin=function(){tr.style.transition='none';tr.style.transform='';tr.appendChild(tr.firstElementChild);c.remove();busy=false};
+  }else{
+   c=tr.lastElementChild.cloneNode(true);tr.insertBefore(c,tr.firstChild);
+   tr.style.transition='none';tr.style.transform='translateX('+(-s)+'px)';tr.offsetWidth;
+   tr.style.transition='transform .4s';tr.style.transform='';
+   var fin=function(){tr.style.transition='none';c.remove();tr.insertBefore(tr.lastElementChild,tr.firstChild);busy=false};
+  }
+  tr.addEventListener('transitionend',end);
+ }
+ var l=root.querySelector('.arr.l'),r=root.querySelector('.arr.r');
+ if(l)l.addEventListener('click',function(){go(-1)});
+ if(r)r.addEventListener('click',function(){go(1)});
+ root.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+ root.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(dx<0?1:-1)});
+});
+</script>
+</body>
+</html>
